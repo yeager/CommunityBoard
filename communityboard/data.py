@@ -3,6 +3,7 @@
 import json
 import os
 from datetime import datetime
+from communityboard.i18n import _
 
 KATEGORIER = ["Aktiviteter", "Stöd", "Jobb", "Lediga tjänster"]
 

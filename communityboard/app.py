@@ -3,6 +3,7 @@
 import sys
 
 import gi
+from communityboard.i18n import _
 
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
@@ -78,13 +79,13 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
         # Headerbar
         header = Adw.HeaderBar()
         header.set_title_widget(Adw.WindowTitle(
-            title="CommunityBoard",
-            subtitle="Anslagstavla för funktionshinderrörelsen",
+            title=_("CommunityBoard",
+            subtitle=_("Anslagstavla för funktionshinderrörelsen",
         ))
 
         # Knapp för nytt inlägg
         ny_knapp = Gtk.Button(icon_name="list-add-symbolic")
-        ny_knapp.set_tooltip_text("Nytt inlägg")
+        ny_knapp.set_tooltip_text(_("Nytt inlägg")
         ny_knapp.connect("clicked", self._visa_nytt_inlagg_dialog)
         header.pack_start(ny_knapp)
 
@@ -92,7 +93,7 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
 
         # Sök
         self.sok_entry = Gtk.SearchEntry()
-        self.sok_entry.set_placeholder_text("Sök inlägg...")
+        self.sok_entry.set_placeholder_text(_("Sök inlägg...")
         self.sok_entry.set_margin_start(12)
         self.sok_entry.set_margin_end(12)
         self.sok_entry.set_margin_top(8)
@@ -106,7 +107,7 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
         filter_box.set_margin_top(8)
         filter_box.set_margin_bottom(4)
 
-        alla_knapp = Gtk.ToggleButton(label="Alla")
+        alla_knapp = Gtk.ToggleButton(label=_("Alla")
         alla_knapp.set_active(True)
         alla_knapp.connect("toggled", self._vid_filter, None)
         self.filter_knappar = [alla_knapp]
@@ -159,7 +160,7 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
 
         # Visa meddelande om listan är tom
         if self.listbox.get_row_at_index(0) is None:
-            tom_label = Gtk.Label(label="Inga inlägg hittades.")
+            tom_label = Gtk.Label(label=_("Inga inlägg hittades.")
             tom_label.add_css_class("dim-label")
             tom_label.set_margin_top(24)
             tom_label.set_margin_bottom(24)
@@ -194,17 +195,17 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
 
         # Titel
         titel_entry = Gtk.Entry()
-        titel_entry.set_placeholder_text("Titel")
-        content.append(Gtk.Label(label="Titel", xalign=0))
+        titel_entry.set_placeholder_text(_("Titel")
+        content.append(Gtk.Label(label=_("Titel", xalign=0))
         content.append(titel_entry)
 
         # Kategori
-        content.append(Gtk.Label(label="Kategori", xalign=0))
+        content.append(Gtk.Label(label=_("Kategori", xalign=0))
         kategori_dropdown = Gtk.DropDown.new_from_strings(KATEGORIER)
         content.append(kategori_dropdown)
 
         # Text
-        content.append(Gtk.Label(label="Beskrivning", xalign=0))
+        content.append(Gtk.Label(label=_("Beskrivning", xalign=0))
         text_view = Gtk.TextView()
         text_view.set_wrap_mode(Gtk.WrapMode.WORD)
         text_view.set_vexpand(True)
@@ -214,12 +215,12 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
 
         # Kontakt
         kontakt_entry = Gtk.Entry()
-        kontakt_entry.set_placeholder_text("E-post eller telefon (valfritt)")
-        content.append(Gtk.Label(label="Kontakt", xalign=0))
+        kontakt_entry.set_placeholder_text(_("E-post eller telefon (valfritt)")
+        content.append(Gtk.Label(label=_("Kontakt", xalign=0))
         content.append(kontakt_entry)
 
         # Spara-knapp
-        spara_knapp = Gtk.Button(label="Publicera")
+        spara_knapp = Gtk.Button(label=_("Publicera")
         spara_knapp.add_css_class("suggested-action")
         spara_knapp.set_margin_top(8)
 
