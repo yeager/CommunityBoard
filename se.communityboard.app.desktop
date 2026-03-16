@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=CommunityBoard
+Comment=Lokalt anslagstavla för funktionshinderrörelsen
+Exec=communityboard
+Icon=application-x-addon
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=community;board;accessibility;funktionshinder;anslagstavla;
