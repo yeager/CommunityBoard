@@ -80,7 +80,7 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
         header = Adw.HeaderBar()
         header.set_title_widget(Adw.WindowTitle(
             title=_("CommunityBoard",
-            subtitle=_("Anslagstavla för funktionshinderrörelsen",
+            subtitle=_("Bulletin board for the disability movement",
         ))
 
         # Knapp för nytt inlägg
