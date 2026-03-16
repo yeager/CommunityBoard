@@ -107,7 +107,7 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
         filter_box.set_margin_top(8)
         filter_box.set_margin_bottom(4)
 
-        alla_knapp = Gtk.ToggleButton(label=_("Alla")
+        alla_knapp = Gtk.ToggleButton(label=_("All")
         alla_knapp.set_active(True)
         alla_knapp.connect("toggled", self._vid_filter, None)
         self.filter_knappar = [alla_knapp]
@@ -195,7 +195,7 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
 
         # Titel
         titel_entry = Gtk.Entry()
-        titel_entry.set_placeholder_text(_("Titel")
+        titel_entry.set_placeholder_text(_("Title")
         content.append(Gtk.Label(label=_("Titel", xalign=0))
         content.append(titel_entry)
 
@@ -215,12 +215,12 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
 
         # Kontakt
         kontakt_entry = Gtk.Entry()
-        kontakt_entry.set_placeholder_text(_("E-post eller telefon (valfritt)")
+        kontakt_entry.set_placeholder_text(_("Email or phone (optional)")
         content.append(Gtk.Label(label=_("Kontakt", xalign=0))
         content.append(kontakt_entry)
 
         # Spara-knapp
-        spara_knapp = Gtk.Button(label=_("Publicera")
+        spara_knapp = Gtk.Button(label=_("Publish")
         spara_knapp.add_css_class("suggested-action")
         spara_knapp.set_margin_top(8)
 
