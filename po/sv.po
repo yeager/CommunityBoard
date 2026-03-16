@@ -40,3 +40,6 @@ msgstr "Search inlägg..."
 msgid "Titel"
 msgstr "Titel"
 
+
+msgid "Bulletin board for the disability movement"
+msgstr "Anslagstavla för funktionshinderrörelsen"
