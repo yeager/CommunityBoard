@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=CommunityBoard
+Name[sv]=Anslagstavla
+Comment=Community bulletin board
+Comment[sv]=Anslagstavla för gemenskapen
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m communityboard
+Icon=communityboard
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
