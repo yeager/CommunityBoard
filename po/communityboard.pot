@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: communityboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 12:49+0100\n"
+"POT-Creation-Date: 2026-03-16 19:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "CommunityBoard"
 msgstr ""
 
-#: communityboard/app.py:88
+#: communityboard/app.py:88 communityboard/app.py:182
 msgid "New post"
 msgstr ""
 

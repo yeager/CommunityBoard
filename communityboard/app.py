@@ -179,7 +179,7 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
     def _visa_nytt_inlagg_dialog(self, knapp):
         """Visa dialog för att skapa nytt inlägg."""
         dialog = Adw.Dialog()
-        dialog.set_title("Nytt inlägg")
+        dialog.set_title(_("New post"))
         dialog.set_content_width(400)
         dialog.set_content_height(500)
 
