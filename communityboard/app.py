@@ -85,7 +85,7 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
 
         # Knapp för nytt inlägg
         ny_knapp = Gtk.Button(icon_name="list-add-symbolic")
-        ny_knapp.set_tooltip_text(_("Nytt inlägg")
+        ny_knapp.set_tooltip_text(_("New post")
         ny_knapp.connect("clicked", self._visa_nytt_inlagg_dialog)
         header.pack_start(ny_knapp)
 
@@ -93,7 +93,7 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
 
         # Sök
         self.sok_entry = Gtk.SearchEntry()
-        self.sok_entry.set_placeholder_text(_("Search inlägg...")
+        self.sok_entry.set_placeholder_text(_("Search posts...")
         self.sok_entry.set_margin_start(12)
         self.sok_entry.set_margin_end(12)
         self.sok_entry.set_margin_top(8)
@@ -160,7 +160,7 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
 
         # Visa meddelande om listan är tom
         if self.listbox.get_row_at_index(0) is None:
-            tom_label = Gtk.Label(label=_("Inga inlägg hittades.")
+            tom_label = Gtk.Label(label=_("No posts were found.")
             tom_label.add_css_class("dim-label")
             tom_label.set_margin_top(24)
             tom_label.set_margin_bottom(24)

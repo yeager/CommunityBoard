@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the CommunityBoard package.
+# This file is distributed under the same license as the communityboard package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: CommunityBoard 1.0\n"
+"Project-Id-Version: communityboard 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 11:51+0100\n"
+"POT-Creation-Date: 2026-03-16 12:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,11 +26,11 @@ msgid "CommunityBoard"
 msgstr ""
 
 #: communityboard/app.py:88
-msgid "Nytt inlägg"
+msgid "New post"
 msgstr ""
 
 #: communityboard/app.py:96
-msgid "Search inlägg..."
+msgid "Search posts..."
 msgstr ""
 
 #: communityboard/app.py:110
@@ -38,7 +38,7 @@ msgid "Alla"
 msgstr ""
 
 #: communityboard/app.py:163
-msgid "Inga inlägg hittades."
+msgid "No posts were found."
 msgstr ""
 
 #: communityboard/app.py:198 communityboard/app.py:199
