@@ -93,7 +93,7 @@ class CommunityBoardWindow(Adw.ApplicationWindow):
 
         # Sök
         self.sok_entry = Gtk.SearchEntry()
-        self.sok_entry.set_placeholder_text(_("Sök inlägg...")
+        self.sok_entry.set_placeholder_text(_("Search inlägg...")
         self.sok_entry.set_margin_start(12)
         self.sok_entry.set_margin_end(12)
         self.sok_entry.set_margin_top(8)

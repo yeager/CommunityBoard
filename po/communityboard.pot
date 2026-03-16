@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the CommunityBoard package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: CommunityBoard 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 11:31+0100\n"
+"POT-Creation-Date: 2026-03-16 11:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,54 +17,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /tmp/CommunityBoard/communityboard/app.py:110
-msgid "Alla"
-msgstr ""
-
-#: /tmp/CommunityBoard/communityboard/app.py:83
+#: communityboard/app.py:83
 msgid "Anslagstavla för funktionshinderrörelsen"
 msgstr ""
 
-#. Text
-#: /tmp/CommunityBoard/communityboard/app.py:208
-msgid "Beskrivning"
-msgstr ""
-
-#: /tmp/CommunityBoard/communityboard/app.py:82
+#: communityboard/app.py:82
 msgid "CommunityBoard"
 msgstr ""
 
-#: /tmp/CommunityBoard/communityboard/app.py:218
-msgid "E-post eller telefon (valfritt)"
-msgstr ""
-
-#: /tmp/CommunityBoard/communityboard/app.py:163
-msgid "Inga inlägg hittades."
-msgstr ""
-
-#. Kategori
-#: /tmp/CommunityBoard/communityboard/app.py:203
-msgid "Kategori"
-msgstr ""
-
-#: /tmp/CommunityBoard/communityboard/app.py:219
-msgid "Kontakt"
-msgstr ""
-
-#: /tmp/CommunityBoard/communityboard/app.py:88
+#: communityboard/app.py:88
 msgid "Nytt inlägg"
 msgstr ""
 
-#. Spara-knapp
-#: /tmp/CommunityBoard/communityboard/app.py:223
-msgid "Publicera"
+#: communityboard/app.py:96
+msgid "Search inlägg..."
 msgstr ""
 
-#: /tmp/CommunityBoard/communityboard/app.py:96
-msgid "Sök inlägg..."
+#: communityboard/app.py:110
+msgid "Alla"
 msgstr ""
 
-#: /tmp/CommunityBoard/communityboard/app.py:198
-#: /tmp/CommunityBoard/communityboard/app.py:199
+#: communityboard/app.py:163
+msgid "Inga inlägg hittades."
+msgstr ""
+
+#: communityboard/app.py:198 communityboard/app.py:199
 msgid "Titel"
+msgstr ""
+
+#: communityboard/app.py:203
+msgid "Kategori"
+msgstr ""
+
+#: communityboard/app.py:208
+msgid "Beskrivning"
+msgstr ""
+
+#: communityboard/app.py:218
+msgid "E-post eller telefon (valfritt)"
+msgstr ""
+
+#: communityboard/app.py:219
+msgid "Kontakt"
+msgstr ""
+
+#: communityboard/app.py:223
+msgid "Publicera"
 msgstr ""
